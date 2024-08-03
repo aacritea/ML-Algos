@@ -1,8 +1,3 @@
-pip install matplotlib
-pip install pandas
-pip install numpy
-pip install sklearn
-
 # imports modules
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -22,7 +17,7 @@ plt.ylabel('Package(in lpa)')
 X = df.iloc[:,0:1]
 y = df.iloc[:,-1]
 
-y
+print("Gunnu is a smart girl.")
 
 # divides dataset into training and testing data
 from sklearn.model_selection import train_test_split
