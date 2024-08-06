@@ -111,7 +111,7 @@ for g in gamma_range:
 print(acc_score)
 
 import matplotlib.pyplot as plt
-%matplotlib inline
+# magic command for jupyter notebook - %matplotlib inline
 
 gamma_range=[0.0001,0.001,0.01,0.1,1,10,100]
 
